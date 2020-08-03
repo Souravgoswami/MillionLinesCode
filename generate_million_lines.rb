@@ -1,7 +1,7 @@
 #!/usr/bin/ruby -w
 require 'net/https'
 
-SIZE = 99_999_900
+SIZE = 49_999_900
 OUT_FILE = 'output.rb'.freeze
 
 WORDS = if File.readable?('wordlist') && File.file?('wordlist')
